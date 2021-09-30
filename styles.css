@@ -1,0 +1,29 @@
+body {
+  background-color: #E3E9FA; /* Lavender Blue */
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.bakgnd-img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: -100;
+}
+
+.container {
+  background-color: #FFFFFF;
+  color: #444;
+  margin: 0 auto;
+  padding: 0;
+  width: 300px;
+}
+
+.hero-img {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
