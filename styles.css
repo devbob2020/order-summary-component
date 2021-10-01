@@ -1,5 +1,6 @@
 body {
-  background-color: #E3E9FA; /* Lavender Blue */
+  background-color: #E3E9FA; /* Lavender Blue */\
+  box-sizing: border-box;
   font-family: sans-serif;
   margin: 0;
   padding: 0;
@@ -16,14 +17,117 @@ body {
 
 .container {
   background-color: #FFFFFF;
-  color: #444;
-  margin: 0 auto;
+  border-radius: 12px;
+  color: #888;
+  margin: 75px auto;
   padding: 0;
-  width: 300px;
+  padding-bottom: 10px;
+  width: 350px;
 }
 
 .hero-img {
+  border-radius: 12px 12px 0 0;
   margin: 0;
   padding: 0;
   width: 100%;
 }
+
+.title-main {
+  color: #333;
+}
+
+p {
+  padding: 0 35px 0 35px;
+}
+
+.planbox {
+  background-color: #F3F9FD; /* Lavender Blue */
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 40px;
+  margin: 20px auto;
+  padding: 20px 10px;
+  position: relative;
+  width: 275px;
+}
+
+.title-sub {
+  color: #333;
+  font-size: 15px;
+}
+
+/* .iconbox, .infobox, .changebox {
+  display: inline;
+} */
+
+.iconbox {
+  height: 50px;
+  margin: 0;
+  padding-left: 10px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  grid-column: 1 / 2;
+}
+
+.infobox {
+  margin: 0;
+  padding: 10px 10px 10px 10px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  grid-column: 2 / 4;
+}
+
+.changebox {
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  grid-column: 4;
+}
+
+.btn {
+  background-color: BLUE; /*#9E7BFF;	/* Purple Mimosa */
+  border-radius: 10px;
+  color: #fff;
+  display: block;
+  font-weight: bold;
+  margin: auto;
+  padding: 10px;
+  width: 275px;
+}
+
+.footer {
+  color: #333;
+  padding: 10px;
+}
+
+.attribution {
+  padding-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* EOF */
