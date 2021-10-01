@@ -22,7 +22,7 @@ body {
   margin: 75px auto;
   padding: 0;
   padding-bottom: 10px;
-  width: 350px;
+  width: 320px;
 }
 
 .hero-img {
@@ -57,10 +57,6 @@ p {
   font-size: 15px;
 }
 
-/* .iconbox, .infobox, .changebox {
-  display: inline;
-} */
-
 .iconbox {
   height: 50px;
   margin: 0;
@@ -88,20 +84,45 @@ p {
   grid-column: 4;
 }
 
+.change:active {
+  color: #8467D7; /*Light Purple*/
+  text-decoration: none;
+}
+
 .btn {
-  background-color: BLUE; /*#9E7BFF;	/* Purple Mimosa */
+  background-color: BLUE;
   border-radius: 10px;
-  color: #fff;
+  box-shadow: 0 20px 10px #DDDDFF;
+  color: white;
   display: block;
   font-weight: bold;
   margin: auto;
   padding: 10px;
+  text-decoration: none;
   width: 275px;
 }
 
+.payment:active {
+  text-decoration: none;
+}
+
+.btn:active {
+  background-color: #8467D7; /*Light Purple*/
+  color: white;
+}
+
 .footer {
+  padding: 30px;
+}
+
+.cancel:active {
   color: #333;
-  padding: 10px;
+}
+
+.cancel {
+  color: #666;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .attribution {
